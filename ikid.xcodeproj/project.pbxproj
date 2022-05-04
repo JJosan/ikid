@@ -13,6 +13,12 @@
 		50C5BC12281F3E73005DC4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C5BC10281F3E73005DC4DF /* Main.storyboard */; };
 		50C5BC14281F3E74005DC4DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C5BC13281F3E74005DC4DF /* Assets.xcassets */; };
 		50C5BC17281F3E74005DC4DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C5BC15281F3E74005DC4DF /* LaunchScreen.storyboard */; };
+		50C5BC1F2820B10D005DC4DF /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C5BC1E2820B10D005DC4DF /* JokeViewController.swift */; };
+		50F4A7C52820E6BC00416A6F /* PunchLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4A7C42820E6BC00416A6F /* PunchLineViewController.swift */; };
+		50F4A7C72821137B00416A6F /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4A7C62821137B00416A6F /* SetupViewController.swift */; };
+		50F4A7E9282220E200416A6F /* Knock1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4A7E8282220E200416A6F /* Knock1ViewController.swift */; };
+		50F4A7EB282220F400416A6F /* Knock2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4A7EA282220F400416A6F /* Knock2ViewController.swift */; };
+		50F4A7ED28222B3000416A6F /* Knock3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F4A7EC28222B3000416A6F /* Knock3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		50C5BC13281F3E74005DC4DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50C5BC16281F3E74005DC4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50C5BC18281F3E74005DC4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50C5BC1E2820B10D005DC4DF /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
+		50F4A7C42820E6BC00416A6F /* PunchLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchLineViewController.swift; sourceTree = "<group>"; };
+		50F4A7C62821137B00416A6F /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		50F4A7E8282220E200416A6F /* Knock1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock1ViewController.swift; sourceTree = "<group>"; };
+		50F4A7EA282220F400416A6F /* Knock2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock2ViewController.swift; sourceTree = "<group>"; };
+		50F4A7EC28222B3000416A6F /* Knock3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knock3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				50C5BC0A281F3E73005DC4DF /* AppDelegate.swift */,
 				50C5BC0C281F3E73005DC4DF /* SceneDelegate.swift */,
 				50C5BC0E281F3E73005DC4DF /* ViewController.swift */,
+				50C5BC1E2820B10D005DC4DF /* JokeViewController.swift */,
+				50F4A7C62821137B00416A6F /* SetupViewController.swift */,
+				50F4A7C42820E6BC00416A6F /* PunchLineViewController.swift */,
+				50F4A7E8282220E200416A6F /* Knock1ViewController.swift */,
+				50F4A7EA282220F400416A6F /* Knock2ViewController.swift */,
+				50F4A7EC28222B3000416A6F /* Knock3ViewController.swift */,
 				50C5BC10281F3E73005DC4DF /* Main.storyboard */,
 				50C5BC13281F3E74005DC4DF /* Assets.xcassets */,
 				50C5BC15281F3E74005DC4DF /* LaunchScreen.storyboard */,
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				50C5BC0F281F3E73005DC4DF /* ViewController.swift in Sources */,
+				50F4A7C52820E6BC00416A6F /* PunchLineViewController.swift in Sources */,
+				50F4A7E9282220E200416A6F /* Knock1ViewController.swift in Sources */,
 				50C5BC0B281F3E73005DC4DF /* AppDelegate.swift in Sources */,
+				50F4A7EB282220F400416A6F /* Knock2ViewController.swift in Sources */,
 				50C5BC0D281F3E73005DC4DF /* SceneDelegate.swift in Sources */,
+				50F4A7ED28222B3000416A6F /* Knock3ViewController.swift in Sources */,
+				50C5BC1F2820B10D005DC4DF /* JokeViewController.swift in Sources */,
+				50F4A7C72821137B00416A6F /* SetupViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
